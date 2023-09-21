@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Site de Vídeos</title>
+    <style>
+        body {
+            background-image: url('img/florest1.gif'); /* Substitua 'seu_background.gif' pelo caminho do seu GIF */
+            background-size: cover; /* Para cobrir toda a área visível */
+            background-repeat: no-repeat; /* Para evitar a repetição do fundo */
+            background-attachment: fixed; 
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: rgb(28, 10, 109);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .video {
+            flex: 0 0 calc(20% - 10px);
+            position: relative;
+        }
+
+        .video video {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 5px;
+            font-size: 14px;
+        }
+        FOOTER{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>WONDERFLIX</h1>
+    </div>
+
+    <div class="video-container">
+        <div class="video">
+            <video controls>
+                <source src="img/o menino do pijama listrado.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="legend">O menino do pijama listrado</div>
+        </div>
+
+        <div class="video">
+            <video controls>
+                <source src="img/FILMEUM.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="legend">Zootopia: Essa cidade é o bicho</div>
+        </div>
+
+        <div class="video">
+            <video controls>
+                <source src="img/avatar1.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="legend">Avatar</div>
+        </div>
+
+        <div class="video">
+            <video controls>
+                <source src="img/outrofilme.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="legend">Starwars</div>
+        </div>
+
+        <div class="video">
+            <video controls>
+                <source src="img/ultimofilme.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="legend">Elementos</div>
+        </div>
+    </div>
+    
+</body>
+</html>

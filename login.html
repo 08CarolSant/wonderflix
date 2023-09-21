@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário de Entrada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-image: url('img/MARIO.gif'); /* Substitua 'seu_background.gif' pelo caminho do seu GIF */
+            background-size: cover; /* Para cobrir toda a área visível */
+            background-repeat: no-repeat; /* Para evitar a repetição do fundo */
+            background-attachment: fixed; 
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        background-color: rgb(15, 5, 109);
+        color: white;
+        text-align: center;
+        padding: 40px;
+        font-weight: bold;
+        font-size: 40px;
+        
+    }
+
+    h1 {
+        text-align: center;
+      
+        
+    }
+
+    form {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<div class="header">
+    </h1>WONDERFLIX</h1>
+</div>
+<body>
+  <h1>Cadastre-se</h1>
+    <form action="index.html">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <input type="submit" value="Entrar">
+    </form>
+</body>
+</html>
